@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: mysql
-          image: chump1/sellers:mysql-11
+          image: chump1/sellers:mysql-12
           ports:
             - containerPort: 3306
           volumeMounts:
