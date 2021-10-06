@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mysql-deployment
-  namespace: sellers
+  namespace: team1
   labels:
     app: mysql
 spec:
@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: mysql
-          image: chump1/sellers:mysql-3
+          image: chump1/sellers:mysql-1
           ports:
             - containerPort: 3306
           volumeMounts:
